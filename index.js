@@ -12,7 +12,7 @@ const ARGO_DOMAIN = process.env.ARGO_DOMAIN || '
 ch.bei.bio';      // 固定隧道域名,留空即启用临时隧道    
 const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiZGE5YmIyZGZlNTM2MmQ4ODAyYTgyMDJjZDM3NDgxMmUiLCJ0IjoiMGE4NmE1NzUtZTUxOC00NGUzLThjMmMtMzNlODZlNTYyNGViIiwicyI6Ik4yUXdObUpsWVRjdFl6VTNaUzAwWmpjMkxUaGhZemt0TlRZME56UmxORFJtWVRZeCJ9';          // 固定隧道密钥json或token,留空即启用临时隧道,json获取地址：https://json.zone.id  
 const ARGO_PORT = process.env.ARGO_PORT ||2082;        // 固定隧道端口,使用token需在cloudflare后台设置和这里一致    
-const CFIP = process.env.CFIP || 'cf.877774.xyz';       // 节点优选域名或优选ip      
+const CFIP = process.env.CFIP || 'www.visa.com.sg';       // 节点优选域名或优选ip      
 const CFPORT = process.env.CFPORT || 443;               // 节点优选域名或优选ip对应的端口    
 const NAME = process.env.NAME || 'Choreo';              // 节点名称   
 
